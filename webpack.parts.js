@@ -3,6 +3,7 @@ const {
     MiniHtmlWebpackPlugin,
 } = require("mini-html-webpack-plugin");
 const { plugins } = require("./webpack.config");
+const loader = require("css-loader");
 
 exports.devServer = () => ({
     watch: true,
@@ -18,4 +19,12 @@ exports.devServer = () => ({
 
 exports.page = ({title}) => ({
     plugins: [new MiniHtmlWebpackPlugin({context: {title}})], /* the title here does not need to be specified as this is a module that webpack config will be loading */
+});
+
+exports.loadCSS = () => ({
+    module: {
+        rules: [
+            {test: /\.css$/, use: ["style-loader", "css-loader"]},
+        ],
+    },
 });
