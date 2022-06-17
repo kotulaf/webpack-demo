@@ -1,14 +1,15 @@
 const {mode} = require("webpack-nano/argv"); /* connect the mini-html-webpack-plugin into webpack */
 const {merge} = require("webpack-merge");
 const parts = require("./webpack.parts"); /* requiring the parts file we just created for the config */
+const cssLoaders = [parts.autoprefix(), parts.tailwind()];
 
 const commonConfig = merge([
     {entry: ["./src"]},
     parts.page({title: "Demo"}),
-    parts.extractCSS()
+    parts.extractCSS({loaders: cssLoaders})
 ]);
 
-const productionConfig = merge([]);
+const productionConfig = merge([parts.eliminateUnusedCss()]);
 
 const developmentConfig = merge([
     {entry: ["webpack-plugin-serve/client"]},

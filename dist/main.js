@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("webpack demo"),document.body.appendChild(((e="do we have a problem?")=>{const o=document.createElement("div");return o.innerHTML=e,o})())})();
+!function(){"use strict";console.log("webpack demo"),document.body.appendChild(((e="do we have a problem?")=>{const d=document.createElement("div");return d.className="rounded bg-red-100 border max-w-md m-4 p-4",d.innerHTML=e,d})())}();

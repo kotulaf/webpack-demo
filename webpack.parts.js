@@ -5,6 +5,11 @@ const {
 const { plugins } = require("./webpack.config");
 const loader = require("css-loader");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const path = require("path");
+const glob = require("glob");
+const PurgeCssPlugin = require("purgecss-webpack-plugin");
+
+const ALL_FILES = glob.sync(path.join(__dirname, "src/*.js"));
 
 exports.devServer = () => ({
     watch: true,
@@ -51,3 +56,32 @@ exports.extractCSS = ({options = {}, loaders = []} = {}) => {
         ],
     };
 };
+
+exports.tailwind = () => ({
+    loader: "postcss-loader",
+    options: {
+        postcssOptions: {plugins: [require("tailwindcss")]},
+    },
+});
+
+exports.eliminateUnusedCss = () => ({               // we configure this to eliminate all the CSS that we don't need
+    plugins: [
+        new PurgeCssPlugin({
+            paths: ALL_FILES, // consider extracting as a parameter
+            extractors: [
+                {
+                    extractor: (content) =>
+                        content.match(/[^<>"'`\s]*[^<>"'`\s:]/g) || [],
+                        extensions: ["html"],
+                },
+            ],
+        }),
+    ],
+});
+
+exports.autoprefix = () => ({
+    loader: "postcss-loader",
+    options: {
+        postcssOptions: {plugins: [require("autoprefixer")()]},
+    },
+});
