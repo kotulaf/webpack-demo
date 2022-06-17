@@ -5,6 +5,7 @@ const parts = require("./webpack.parts"); /* requiring the parts file we just cr
 const commonConfig = merge([
     {entry: ["./src"]},
     parts.page({title: "Demo"}),
+    parts.extractCSS()
 ]);
 
 const productionConfig = merge([]);
