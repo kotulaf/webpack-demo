@@ -1,0 +1,1 @@
+export default "beef, we bout to resolve though";
