@@ -16,6 +16,7 @@ const commonConfig = merge([
 const productionConfig = merge([
     parts.eliminateUnusedCss(),
     { optimization: { splitChunks: { chunks: "all"}}},
+    parts.attachRevision(),
 ]);
 
 const developmentConfig = merge([

@@ -9,6 +9,8 @@ const path = require("path");
 const glob = require("glob");
 const PurgeCssPlugin = require("purgecss-webpack-plugin");
 const APP_SOURCE = path.join(__dirname, "src");
+const webpack = require("webpack");
+const { GitRevisionPlugin } = require("git-revision-webpack-plugin");
 
 const ALL_FILES = glob.sync(path.join(__dirname, "src/*.js"));
 
@@ -111,4 +113,12 @@ exports.clean = () => ({
     output: {
         clean: true,
     },
+});
+
+exports.attachRevision = () => ({
+    plugins: [
+        new webpack.BannerPlugin({
+            banner: new GitRevisionPlugin().version(),
+        }),
+    ],
 });
