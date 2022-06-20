@@ -7,7 +7,8 @@ const commonConfig = merge([
     {entry: ["./src"]},
     parts.page({title: "Demo"}),
     parts.extractCSS({loaders: cssLoaders}),
-    parts.loadImages({limit: 15000})
+    parts.loadImages({limit: 15000}),
+    parts.loadJavaScript()
 ]);
 
 const productionConfig = merge([parts.eliminateUnusedCss()]);
@@ -20,7 +21,7 @@ const developmentConfig = merge([
 const getConfig = (mode) => {
     switch(mode) {
         case "production" :
-            return merge(commonConfig, productionConfig, {mode});
+            return merge(commonConfig, productionConfig, {mode : "none"});
         case "development" :
             return merge(commonConfig, developmentConfig, {mode});
         default:
