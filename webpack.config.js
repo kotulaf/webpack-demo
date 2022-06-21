@@ -10,15 +10,36 @@ const commonConfig = merge([
     parts.extractCSS({loaders: cssLoaders}),
     parts.loadImages({limit: 15000}),
     parts.loadJavaScript(),
-    parts.clean()
+    parts.clean(),
+    parts.setFreeVariable("HELLO", "hello from config")
 ]);
 
 const productionConfig = merge([
     parts.eliminateUnusedCss(),
-    { optimization: { splitChunks: { chunks: "all"}}},
+    {
+        optimization: {
+            splitChunks: { chunks: "all" },
+            runtimeChunk: { name: "runtime" },
+        },
+    },
     parts.attachRevision(),
     parts.minifyJavaScript(),
-    parts.minifyCSS({ options: { preset: ["default"] } })
+    parts.minifyCSS({ options: { preset: ["default"] } }),
+    {
+        output: {
+            chunkFilename: "[name].[contenthash].js",
+            filename: "[name].[contenthash].js",
+            assetModuleFilename: "[name].[contenthash][ext][query]",
+        },
+    },
+    { recordsPath: path.join(__dirname, "records.json") },
+    {
+        performance: {
+            hints: "warning", // also could be "error" or false instead
+            maxEntrypointSize: 50000, // in bytes, default is 250k
+            maxAssetSize: 100000, // in bytes
+        },
+    },
 ]);
 
 const developmentConfig = merge([

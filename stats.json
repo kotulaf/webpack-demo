@@ -1,0 +1,4468 @@
+{
+  "hash": "029db8724faf34188131",
+  "version": "5.73.0",
+  "time": 4781,
+  "builtAt": 1655790534377,
+  "publicPath": "auto",
+  "outputPath": "C:\\projects\\webpack-demo\\dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.e123d45d28195c4a504b.css",
+      "main.3adafd9ec0355a854a3e.js"
+    ],
+    "runtime": [
+      "runtime.5bbd293aead651a2aeda.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "935.0d343b3a6865ef5c245a.js",
+      "size": 137723,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "0d343b3a6865ef5c245a",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "935.0d343b3a6865ef5c245a.js.LICENSE.txt"
+        },
+        "size": 137723
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "935.0d343b3a6865ef5c245a.js.LICENSE.txt",
+          "size": 737,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 737
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        935
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "logo.f08a4fec7a44b8ae2b57.png",
+      "size": 45606,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/logo.png",
+        "immutable": true,
+        "contenthash": "f08a4fec7a44b8ae2b57",
+        "size": 45606
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [
+        179
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.e123d45d28195c4a504b.css",
+      "size": 3228,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "e123d45d28195c4a504b",
+        "minimized": true,
+        "size": 3228
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "runtime.5bbd293aead651a2aeda.js",
+      "size": 3222,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "5bbd293aead651a2aeda",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "runtime.5bbd293aead651a2aeda.js.LICENSE.txt"
+        },
+        "size": 3222
+      },
+      "chunkNames": [
+        "runtime"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "runtime.5bbd293aead651a2aeda.js.LICENSE.txt",
+          "size": 15,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 15
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        666
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.3adafd9ec0355a854a3e.js",
+      "size": 716,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "3adafd9ec0355a854a3e",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "main.3adafd9ec0355a854a3e.js.LICENSE.txt"
+        },
+        "size": 716
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "main.3adafd9ec0355a854a3e.js.LICENSE.txt",
+          "size": 15,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 15
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 377,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "size": 377
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "34.2869b0b355812956aeda.js",
+      "size": 246,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "2869b0b355812956aeda",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "34.2869b0b355812956aeda.js.LICENSE.txt"
+        },
+        "size": 246
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "34.2869b0b355812956aeda.js.LICENSE.txt",
+          "size": 15,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 15
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        34
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 49,
+      "sizes": {
+        "javascript": 49
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "34.2869b0b355812956aeda.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "fa6d20188f939cb36e17",
+      "childrenByOrder": {},
+      "id": 34,
+      "siblings": [],
+      "parents": [
+        179,
+        666,
+        935
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 49,
+          "sizes": {
+            "javascript": 49
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\lazy.js",
+          "name": "./src/lazy.js",
+          "nameForCondition": "C:\\projects\\webpack-demo\\src\\lazy.js",
+          "index": 11,
+          "preOrderIndex": 11,
+          "index2": 11,
+          "postOrderIndex": 11,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+          "issuerName": "./src/component.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+              "name": "./src/component.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 34,
+          "issuerId": null,
+          "chunks": [
+            34
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+              "module": "./src/component.js",
+              "moduleName": "./src/component.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+              "resolvedModule": "./src/component.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./lazy",
+              "loc": "8:11-27",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js|3b5704a399f34a5e9c67262b3ec8146c",
+              "module": "./src/index.js + 3 modules",
+              "moduleName": "./src/index.js + 3 modules",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+              "resolvedModule": "./src/component.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./lazy",
+              "loc": "8:11-27",
+              "moduleId": 626,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        }
+      ],
+      "origins": [
+        {
+          "module": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+          "moduleName": "./src/component.js",
+          "loc": "8:11-27",
+          "request": "./lazy",
+          "moduleId": null
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 12676,
+      "sizes": {
+        "javascript": 891,
+        "css/mini-extract": 11785
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "main.e123d45d28195c4a504b.css",
+        "main.3adafd9ec0355a854a3e.js"
+      ],
+      "auxiliaryFiles": [
+        "logo.f08a4fec7a44b8ae2b57.png"
+      ],
+      "hash": "b5f1dc805119363b44a0",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [
+        666,
+        935
+      ],
+      "parents": [],
+      "children": [
+        34
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 891,
+          "sizes": {
+            "javascript": 891
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js|3b5704a399f34a5e9c67262b3ec8146c",
+          "name": "./src/index.js + 3 modules",
+          "nameForCondition": "C:\\projects\\webpack-demo\\src\\index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 626,
+          "chunks": [
+            179
+          ],
+          "assets": [
+            "logo.f08a4fec7a44b8ae2b57.png"
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 202,
+              "sizes": {
+                "javascript": 202
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "nameForCondition": "C:\\projects\\webpack-demo\\src\\index.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 10,
+              "postOrderIndex": 10,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 6:0-7"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 50,
+              "sizes": {
+                "javascript": 50
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+              "name": "./src/main.css",
+              "nameForCondition": "C:\\projects\\webpack-demo\\src\\main.css",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "name": "./src/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [
+                "logo.f08a4fec7a44b8ae2b57.png"
+              ],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./main.css",
+                  "loc": "2:0-20",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 152,
+              "sizes": {
+                "javascript": 152
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\shake.js",
+              "name": "./src/shake.js",
+              "nameForCondition": "C:\\projects\\webpack-demo\\src\\shake.js",
+              "index": 9,
+              "preOrderIndex": 9,
+              "index2": 8,
+              "postOrderIndex": 8,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "name": "./src/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./shake",
+                  "loc": "5:0-31",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./shake",
+                  "loc": "6:0-4",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "bake"
+              ],
+              "providedExports": [
+                "bake",
+                "shake"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 487,
+              "sizes": {
+                "javascript": 487
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+              "name": "./src/component.js",
+              "nameForCondition": "C:\\projects\\webpack-demo\\src\\component.js",
+              "index": 10,
+              "preOrderIndex": 10,
+              "index2": 9,
+              "postOrderIndex": 9,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "name": "./src/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./component",
+                  "loc": "1:0-36",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./component",
+                  "loc": "8:26-35",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "size": 11785,
+          "sizes": {
+            "css/mini-extract": 11785
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "css|C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css|0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "nameForCondition": "C:\\projects\\webpack-demo\\src\\main.css",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "issuerName": "./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+              "name": "./src/main.css",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js|3b5704a399f34a5e9c67262b3ec8146c",
+              "module": "./src/index.js + 3 modules",
+              "moduleName": "./src/index.js + 3 modules",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+              "resolvedModule": "./src/main.css",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": 626,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+              "module": "./src/main.css",
+              "moduleName": "./src/main.css",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+              "resolvedModule": "./src/main.css",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 2
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 7921,
+      "sizes": {
+        "runtime": 7921
+      },
+      "names": [
+        "runtime"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "runtime.5bbd293aead651a2aeda.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "65c5d5e1202a742def41",
+      "childrenByOrder": {},
+      "id": 666,
+      "siblings": [
+        179,
+        935
+      ],
+      "parents": [],
+      "children": [
+        34
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 953,
+          "sizes": {
+            "runtime": 953
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/chunk loaded",
+          "name": "webpack/runtime/chunk loaded",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 0,
+          "sizes": {
+            "runtime": 0
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/css loading",
+          "name": "webpack/runtime/css loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 336,
+          "sizes": {
+            "runtime": 336
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/ensure chunk",
+          "name": "webpack/runtime/ensure chunk",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 203,
+          "sizes": {
+            "runtime": 203
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get javascript chunk filename",
+          "name": "webpack/runtime/get javascript chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 168,
+          "sizes": {
+            "runtime": 168
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get mini-css chunk filename",
+          "name": "webpack/runtime/get mini-css chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 3257,
+          "sizes": {
+            "runtime": 3257
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 1534,
+          "sizes": {
+            "runtime": 1534
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/load script",
+          "name": "webpack/runtime/load script",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 279,
+          "sizes": {
+            "runtime": 279
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 867,
+          "sizes": {
+            "runtime": 867
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 145056,
+      "sizes": {
+        "javascript": 145056
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "935.0d343b3a6865ef5c245a.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "ebfaf421b85a5dc4b113",
+      "childrenByOrder": {},
+      "id": 935,
+      "siblings": [
+        179,
+        666
+      ],
+      "parents": [],
+      "children": [
+        34
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 132060,
+          "sizes": {
+            "javascript": 132060
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+          "issuerName": "./node_modules/react-dom/index.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 935
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 448,
+          "issuerId": 935,
+          "chunks": [
+            935
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+              "module": "./node_modules/react-dom/index.js",
+              "moduleName": "./node_modules/react-dom/index.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+              "resolvedModule": "./node_modules/react-dom/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react-dom.production.min.js",
+              "loc": "35:2-63",
+              "moduleId": 935,
+              "resolvedModuleId": 935
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 13:13-61",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1401,
+          "sizes": {
+            "javascript": 1401
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 935,
+          "issuerId": null,
+          "chunks": [
+            935
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js|3b5704a399f34a5e9c67262b3ec8146c",
+              "module": "./src/index.js + 3 modules",
+              "moduleName": "./src/index.js + 3 modules",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom",
+              "loc": "4:0-19",
+              "moduleId": 626,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 34:2-13",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 6939,
+          "sizes": {
+            "javascript": 6939
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\react\\cjs\\react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js",
+          "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\react\\cjs\\react.production.min.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+          "issuerName": "./node_modules/react/index.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+              "name": "./node_modules/react/index.js",
+              "id": 294
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 408,
+          "issuerId": 294,
+          "chunks": [
+            935
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+              "module": "./node_modules/react/index.js",
+              "moduleName": "./node_modules/react/index.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+              "resolvedModule": "./node_modules/react/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react.production.min.js",
+              "loc": "4:2-59",
+              "moduleId": 294,
+              "resolvedModuleId": 294
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Children",
+            "Component",
+            "Fragment",
+            "Profiler",
+            "PureComponent",
+            "StrictMode",
+            "Suspense",
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "cloneElement",
+            "createContext",
+            "createElement",
+            "createFactory",
+            "createRef",
+            "forwardRef",
+            "isValidElement",
+            "lazy",
+            "memo",
+            "startTransition",
+            "unstable_act",
+            "useCallback",
+            "useContext",
+            "useDebugValue",
+            "useDeferredValue",
+            "useEffect",
+            "useId",
+            "useImperativeHandle",
+            "useInsertionEffect",
+            "useLayoutEffect",
+            "useMemo",
+            "useReducer",
+            "useRef",
+            "useState",
+            "useSyncExternalStore",
+            "useTransition",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 10:13-370",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 197,
+          "sizes": {
+            "javascript": 197
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js",
+          "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 294,
+          "issuerId": null,
+          "chunks": [
+            935
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js|3b5704a399f34a5e9c67262b3ec8146c",
+              "module": "./src/index.js + 3 modules",
+              "moduleName": "./src/index.js + 3 modules",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "3:0-15",
+              "moduleId": 626,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "13:20-36",
+              "moduleId": 448,
+              "resolvedModuleId": 448
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Children",
+            "Component",
+            "Fragment",
+            "Profiler",
+            "PureComponent",
+            "StrictMode",
+            "Suspense",
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "cloneElement",
+            "createContext",
+            "createElement",
+            "createFactory",
+            "createRef",
+            "forwardRef",
+            "isValidElement",
+            "lazy",
+            "memo",
+            "startTransition",
+            "unstable_act",
+            "useCallback",
+            "useContext",
+            "useDebugValue",
+            "useDeferredValue",
+            "useEffect",
+            "useId",
+            "useImperativeHandle",
+            "useInsertionEffect",
+            "useLayoutEffect",
+            "useMemo",
+            "useReducer",
+            "useRef",
+            "useState",
+            "useSyncExternalStore",
+            "useTransition",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:2-60",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 4254,
+          "sizes": {
+            "javascript": 4254
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "index": 8,
+          "preOrderIndex": 8,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+          "issuerName": "./node_modules/scheduler/index.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 935
+            },
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": 448
+            },
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+              "name": "./node_modules/scheduler/index.js",
+              "id": 840
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 53,
+          "issuerId": 840,
+          "chunks": [
+            935
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "13:227-247",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:20-40",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:85-105",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:449-469",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "18:56-76",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+              "module": "./node_modules/scheduler/index.js",
+              "moduleName": "./node_modules/scheduler/index.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+              "resolvedModule": "./node_modules/scheduler/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/scheduler.production.min.js",
+              "loc": "4:2-63",
+              "moduleId": 840,
+              "resolvedModuleId": 840
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 13:227-247",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:85-105",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:449-469",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 18:56-76",
+            "Statement (IfStatement) with side effects in source code at 11:71-284",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 205,
+          "sizes": {
+            "javascript": 205
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 935
+            },
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": 448
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 840,
+          "issuerId": 448,
+          "chunks": [
+            935
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "scheduler",
+              "loc": "13:40-60",
+              "moduleId": 448,
+              "resolvedModuleId": 448
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:2-64",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "layer": null,
+      "size": 891,
+      "sizes": {
+        "javascript": 891
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js|3b5704a399f34a5e9c67262b3ec8146c",
+      "name": "./src/index.js + 3 modules",
+      "nameForCondition": "C:\\projects\\webpack-demo\\src\\index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 626,
+      "chunks": [
+        179
+      ],
+      "assets": [
+        "logo.f08a4fec7a44b8ae2b57.png"
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 202,
+          "sizes": {
+            "javascript": 202
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "C:\\projects\\webpack-demo\\src\\index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 6:0-7"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 50,
+          "sizes": {
+            "javascript": 50
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css",
+          "nameForCondition": "C:\\projects\\webpack-demo\\src\\main.css",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [
+            "logo.f08a4fec7a44b8ae2b57.png"
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./main.css",
+              "loc": "2:0-20",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 152,
+          "sizes": {
+            "javascript": 152
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\shake.js",
+          "name": "./src/shake.js",
+          "nameForCondition": "C:\\projects\\webpack-demo\\src\\shake.js",
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./shake",
+              "loc": "5:0-31",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./shake",
+              "loc": "6:0-4",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "bake"
+          ],
+          "providedExports": [
+            "bake",
+            "shake"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 487,
+          "sizes": {
+            "javascript": 487
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+          "name": "./src/component.js",
+          "nameForCondition": "C:\\projects\\webpack-demo\\src\\component.js",
+          "index": 10,
+          "preOrderIndex": 10,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./component",
+              "loc": "1:0-36",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./component",
+              "loc": "8:26-35",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 50,
+      "sizes": {
+        "javascript": 50
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+      "name": "./src/main.css",
+      "nameForCondition": "C:\\projects\\webpack-demo\\src\\main.css",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [
+        "logo.f08a4fec7a44b8ae2b57.png"
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./main.css",
+          "loc": "2:0-20",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 197,
+      "sizes": {
+        "javascript": 197
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+      "name": "./node_modules/react/index.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 294,
+      "issuerId": null,
+      "chunks": [
+        935
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js|3b5704a399f34a5e9c67262b3ec8146c",
+          "module": "./src/index.js + 3 modules",
+          "moduleName": "./src/index.js + 3 modules",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "3:0-15",
+          "moduleId": 626,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "13:20-36",
+          "moduleId": 448,
+          "resolvedModuleId": 448
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Children",
+        "Component",
+        "Fragment",
+        "Profiler",
+        "PureComponent",
+        "StrictMode",
+        "Suspense",
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "cloneElement",
+        "createContext",
+        "createElement",
+        "createFactory",
+        "createRef",
+        "forwardRef",
+        "isValidElement",
+        "lazy",
+        "memo",
+        "startTransition",
+        "unstable_act",
+        "useCallback",
+        "useContext",
+        "useDebugValue",
+        "useDeferredValue",
+        "useEffect",
+        "useId",
+        "useImperativeHandle",
+        "useInsertionEffect",
+        "useLayoutEffect",
+        "useMemo",
+        "useReducer",
+        "useRef",
+        "useState",
+        "useSyncExternalStore",
+        "useTransition",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:2-60",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1401,
+      "sizes": {
+        "javascript": 1401
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 7,
+      "postOrderIndex": 7,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 935,
+      "issuerId": null,
+      "chunks": [
+        935
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js|3b5704a399f34a5e9c67262b3ec8146c",
+          "module": "./src/index.js + 3 modules",
+          "moduleName": "./src/index.js + 3 modules",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom",
+          "loc": "4:0-19",
+          "moduleId": 626,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "createPortal",
+        "createRoot",
+        "findDOMNode",
+        "flushSync",
+        "hydrate",
+        "hydrateRoot",
+        "render",
+        "unmountComponentAtNode",
+        "unstable_batchedUpdates",
+        "unstable_renderSubtreeIntoContainer",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 34:2-13",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 152,
+      "sizes": {
+        "javascript": 152
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\shake.js",
+      "name": "./src/shake.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\src\\shake.js",
+      "index": 9,
+      "preOrderIndex": 9,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./shake",
+          "loc": "5:0-31",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./shake",
+          "loc": "6:0-4",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "bake"
+      ],
+      "providedExports": [
+        "bake",
+        "shake"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 487,
+      "sizes": {
+        "javascript": 487
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+      "name": "./src/component.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\src\\component.js",
+      "index": 10,
+      "preOrderIndex": 10,
+      "index2": 9,
+      "postOrderIndex": 9,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./component",
+          "loc": "1:0-36",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./component",
+          "loc": "8:26-35",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "size": 11785,
+      "sizes": {
+        "css/mini-extract": 11785
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "css|C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css|0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+      "nameForCondition": "C:\\projects\\webpack-demo\\src\\main.css",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+      "issuerName": "./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js|3b5704a399f34a5e9c67262b3ec8146c",
+          "module": "./src/index.js + 3 modules",
+          "moduleName": "./src/index.js + 3 modules",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "resolvedModule": "./src/main.css",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": 626,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "module": "./src/main.css",
+          "moduleName": "./src/main.css",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "resolvedModule": "./src/main.css",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 6939,
+      "sizes": {
+        "javascript": 6939
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\react\\cjs\\react.production.min.js",
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\react\\cjs\\react.production.min.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+      "issuerName": "./node_modules/react/index.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js",
+          "id": 294
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 408,
+      "issuerId": 294,
+      "chunks": [
+        935
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+          "module": "./node_modules/react/index.js",
+          "moduleName": "./node_modules/react/index.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react\\index.js",
+          "resolvedModule": "./node_modules/react/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react.production.min.js",
+          "loc": "4:2-59",
+          "moduleId": 294,
+          "resolvedModuleId": 294
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Children",
+        "Component",
+        "Fragment",
+        "Profiler",
+        "PureComponent",
+        "StrictMode",
+        "Suspense",
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "cloneElement",
+        "createContext",
+        "createElement",
+        "createFactory",
+        "createRef",
+        "forwardRef",
+        "isValidElement",
+        "lazy",
+        "memo",
+        "startTransition",
+        "unstable_act",
+        "useCallback",
+        "useContext",
+        "useDebugValue",
+        "useDeferredValue",
+        "useEffect",
+        "useId",
+        "useImperativeHandle",
+        "useInsertionEffect",
+        "useLayoutEffect",
+        "useMemo",
+        "useReducer",
+        "useRef",
+        "useState",
+        "useSyncExternalStore",
+        "useTransition",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 10:13-370",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 132060,
+      "sizes": {
+        "javascript": 132060
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+      "issuerName": "./node_modules/react-dom/index.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 935
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 448,
+      "issuerId": 935,
+      "chunks": [
+        935
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+          "module": "./node_modules/react-dom/index.js",
+          "moduleName": "./node_modules/react-dom/index.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+          "resolvedModule": "./node_modules/react-dom/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react-dom.production.min.js",
+          "loc": "35:2-63",
+          "moduleId": 935,
+          "resolvedModuleId": 935
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "createPortal",
+        "createRoot",
+        "findDOMNode",
+        "flushSync",
+        "hydrate",
+        "hydrateRoot",
+        "render",
+        "unmountComponentAtNode",
+        "unstable_batchedUpdates",
+        "unstable_renderSubtreeIntoContainer",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 13:13-61",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 49,
+      "sizes": {
+        "javascript": 49
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\lazy.js",
+      "name": "./src/lazy.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\src\\lazy.js",
+      "index": 11,
+      "preOrderIndex": 11,
+      "index2": 11,
+      "postOrderIndex": 11,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+      "issuerName": "./src/component.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+          "name": "./src/component.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 34,
+      "issuerId": null,
+      "chunks": [
+        34
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+          "module": "./src/component.js",
+          "moduleName": "./src/component.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+          "resolvedModule": "./src/component.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./lazy",
+          "loc": "8:11-27",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js|3b5704a399f34a5e9c67262b3ec8146c",
+          "module": "./src/index.js + 3 modules",
+          "moduleName": "./src/index.js + 3 modules",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\component.js",
+          "resolvedModule": "./src/component.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./lazy",
+          "loc": "8:11-27",
+          "moduleId": 626,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 205,
+      "sizes": {
+        "javascript": 205
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 935
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": 448
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 840,
+      "issuerId": 448,
+      "chunks": [
+        935
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "scheduler",
+          "loc": "13:40-60",
+          "moduleId": 448,
+          "resolvedModuleId": 448
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "unstable_IdlePriority",
+        "unstable_ImmediatePriority",
+        "unstable_LowPriority",
+        "unstable_NormalPriority",
+        "unstable_Profiling",
+        "unstable_UserBlockingPriority",
+        "unstable_cancelCallback",
+        "unstable_continueExecution",
+        "unstable_forceFrameRate",
+        "unstable_getCurrentPriorityLevel",
+        "unstable_getFirstCallbackNode",
+        "unstable_next",
+        "unstable_now",
+        "unstable_pauseExecution",
+        "unstable_requestPaint",
+        "unstable_runWithPriority",
+        "unstable_scheduleCallback",
+        "unstable_shouldYield",
+        "unstable_wrapCallback"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:2-64",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 4254,
+      "sizes": {
+        "javascript": 4254
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+      "index": 8,
+      "preOrderIndex": 8,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+      "issuerName": "./node_modules/scheduler/index.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 935
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": 448
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "id": 840
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 53,
+      "issuerId": 840,
+      "chunks": [
+        935
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "13:227-247",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:20-40",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:85-105",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:449-469",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "18:56-76",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+          "module": "./node_modules/scheduler/index.js",
+          "moduleName": "./node_modules/scheduler/index.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\scheduler\\index.js",
+          "resolvedModule": "./node_modules/scheduler/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/scheduler.production.min.js",
+          "loc": "4:2-63",
+          "moduleId": 840,
+          "resolvedModuleId": 840
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "unstable_IdlePriority",
+        "unstable_ImmediatePriority",
+        "unstable_LowPriority",
+        "unstable_NormalPriority",
+        "unstable_Profiling",
+        "unstable_UserBlockingPriority",
+        "unstable_cancelCallback",
+        "unstable_continueExecution",
+        "unstable_forceFrameRate",
+        "unstable_getCurrentPriorityLevel",
+        "unstable_getFirstCallbackNode",
+        "unstable_next",
+        "unstable_now",
+        "unstable_pauseExecution",
+        "unstable_requestPaint",
+        "unstable_runWithPriority",
+        "unstable_scheduleCallback",
+        "unstable_shouldYield",
+        "unstable_wrapCallback"
+      ],
+      "optimizationBailout": [
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 13:227-247",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:20-40",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:85-105",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:449-469",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 18:56-76",
+        "Statement (IfStatement) with side effects in source code at 11:71-284",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 13547,
+      "sizes": {
+        "javascript": 13547
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+      "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+      "nameForCondition": "C:\\projects\\webpack-demo\\src\\main.css",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+      "issuerName": "./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "loader import",
+          "active": false,
+          "explanation": "",
+          "userRequest": "C:\\projects\\webpack-demo\\src\\main.css.webpack[javascript/auto]!=!!!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "loc": "C:\\projects\\webpack-demo\\src\\main.css.webpack[javascript/auto]!=!!!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 6:0-100",
+        "ModuleConcatenation bailout: Module uses module.id"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2419,
+      "sizes": {
+        "javascript": 2419
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\api.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+      "issuerName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-89",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "6:30-57",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "7:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 7:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 7:0-102:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 626,
+      "sizes": {
+        "javascript": 626
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+      "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+      "issuerName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "4:0-96",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "7:41-72",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+          "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-29:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 68,
+      "sizes": {
+        "javascript": 68
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+      "name": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "nameForCondition": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+      "issuerName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "loc": "2:0-111",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "loc": "6:58-98",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+          "module": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-5:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "asset",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "javascript": 42,
+        "asset": 45606
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "asset|C:\\projects\\webpack-demo\\src\\logo.png",
+      "name": "./src/logo.png",
+      "nameForCondition": "C:\\projects\\webpack-demo\\src\\logo.png",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+      "issuerName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\babel-loader\\lib\\index.js!C:\\projects\\webpack-demo\\src\\index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js??ruleSet[1].rules[0].use[0]!C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css",
+          "id": null
+        },
+        {
+          "identifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "C:\\projects\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[2]!C:\\projects\\webpack-demo\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[3]!C:\\projects\\webpack-demo\\src\\main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "new URL()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./logo.png",
+          "loc": "5:36-74",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not in any chunk"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 38,
+      "sizes": {
+        "runtime": 38
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/base uri",
+      "name": "webpack/runtime/base uri",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for BaseUriRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 953,
+      "sizes": {
+        "runtime": 953
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/chunk loaded",
+      "name": "webpack/runtime/chunk loaded",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 302,
+      "sizes": {
+        "runtime": 302
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CompatGetDefaultExportRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 0,
+      "sizes": {
+        "runtime": 0
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/css loading",
+      "name": "webpack/runtime/css loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 313,
+      "sizes": {
+        "runtime": 313
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for DefinePropertyGettersRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 336,
+      "sizes": {
+        "runtime": 336
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/ensure chunk",
+      "name": "webpack/runtime/ensure chunk",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 203,
+      "sizes": {
+        "runtime": 203
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get javascript chunk filename",
+      "name": "webpack/runtime/get javascript chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 168,
+      "sizes": {
+        "runtime": 168
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get mini-css chunk filename",
+      "name": "webpack/runtime/get mini-css chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for HasOwnPropertyRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 3257,
+      "sizes": {
+        "runtime": 3257
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1534,
+      "sizes": {
+        "runtime": 1534
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/load script",
+      "name": "webpack/runtime/load script",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 279,
+      "sizes": {
+        "runtime": 279
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for MakeNamespaceObjectRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 279,
+      "sizes": {
+        "runtime": 279
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 106,
+      "sizes": {
+        "runtime": 106
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for PublicPathRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 867,
+      "sizes": {
+        "runtime": 867
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        666,
+        935,
+        179
+      ],
+      "assets": [
+        {
+          "name": "runtime.5bbd293aead651a2aeda.js",
+          "size": 3222
+        },
+        {
+          "name": "935.0d343b3a6865ef5c245a.js",
+          "size": 137723
+        },
+        {
+          "name": "main.e123d45d28195c4a504b.css",
+          "size": 3228
+        },
+        {
+          "name": "main.3adafd9ec0355a854a3e.js",
+          "size": 716
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 144889,
+      "auxiliaryAssets": [
+        {
+          "name": "logo.f08a4fec7a44b8ae2b57.png",
+          "size": 45606
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 45606,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        666,
+        935,
+        179
+      ],
+      "assets": [
+        {
+          "name": "runtime.5bbd293aead651a2aeda.js",
+          "size": 3222
+        },
+        {
+          "name": "935.0d343b3a6865ef5c245a.js",
+          "size": 137723
+        },
+        {
+          "name": "main.e123d45d28195c4a504b.css",
+          "size": 3228
+        },
+        {
+          "name": "main.3adafd9ec0355a854a3e.js",
+          "size": 716
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 144889,
+      "auxiliaryAssets": [
+        {
+          "name": "logo.f08a4fec7a44b8ae2b57.png",
+          "size": 45606
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 45606,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}

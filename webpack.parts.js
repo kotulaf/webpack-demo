@@ -56,7 +56,7 @@ exports.extractCSS = ({options = {}, loaders = []} = {}) => {
         },
         plugins: [
             new MiniCssExtractPlugin({
-                filename: "[name].css",     // name placeholder uses the name of the entry where the CSS is reffered
+                filename: "[name].[contenthash].css",     // name placeholder uses the name of the entry where the CSS is reffered
             }),
         ],
     };
@@ -136,3 +136,12 @@ exports.minifyCSS = ( {options} ) => ({
         ],
     },
 });
+
+exports.setFreeVariable = (key, value) => {
+    const env = {};
+    env[key] = JSON.stringify(value);
+
+    return {
+        plugins: [new webpack.DefinePlugin(env)],
+    };
+};
