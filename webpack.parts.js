@@ -13,6 +13,7 @@ const webpack = require("webpack");
 const { GitRevisionPlugin } = require("git-revision-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const { ModuleFederationPlugin } = require("webpack").container;
 
 const ALL_FILES = glob.sync(path.join(__dirname, "src/*.js"));
 
@@ -152,3 +153,21 @@ exports.setFreeVariable = (key, value) => {
         plugins: [new webpack.DefinePlugin(env)],
     };
 };
+
+exports.federateModule = ({
+    name,
+    filename,
+    exposes,
+    remotes,
+    shared
+}) => ({
+    plugins: [
+        new ModuleFederationPlugin({
+            name,
+            filename,
+            exposes,
+            remotes,
+            shared,
+        }),
+    ],
+});

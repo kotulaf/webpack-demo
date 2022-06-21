@@ -3,15 +3,31 @@ const {merge} = require("webpack-merge");
 const parts = require("./webpack.parts"); /* requiring the parts file we just created for the config */
 const cssLoaders = [parts.autoprefix(), parts.tailwind()];
 const path = require("path");
+const ModuleFederationPlugin = require("webpack").container;
 
 const commonConfig = merge([
-    {entry: ["./src"]},
+    {
+        entry: [path.join(__dirname, "src", "bootstrap.js")],
+        output: { publicPath: "/" },
+    },
     parts.page({title: "Demo"}),
     parts.extractCSS({loaders: cssLoaders}),
     parts.loadImages({limit: 15000}),
     parts.loadJavaScript(),
     parts.clean(),
-    parts.setFreeVariable("HELLO", "hello from config")
+    parts.setFreeVariable("HELLO", "hello from config"),
+    {
+        plugins: [
+            new ModuleFederationPlugin({
+                name: "app",
+                remotes: {},
+                shared: {
+                    react: { singleton: true},
+                    "react-dom" : { singleton: true },
+                },
+            }),
+        ],
+    },
 ]);
 
 const productionConfig = merge([
