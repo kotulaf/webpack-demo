@@ -17,6 +17,8 @@ const productionConfig = merge([
     parts.eliminateUnusedCss(),
     { optimization: { splitChunks: { chunks: "all"}}},
     parts.attachRevision(),
+    parts.minifyJavaScript(),
+    parts.minifyCSS({ options: { preset: ["default"] } })
 ]);
 
 const developmentConfig = merge([
@@ -27,7 +29,7 @@ const developmentConfig = merge([
 const getConfig = (mode) => {
     switch(mode) {
         case "production" :
-            return merge(commonConfig, productionConfig, {mode : "none"});
+            return merge(commonConfig, productionConfig, {mode});
         case "development" :
             return merge(commonConfig, developmentConfig, {mode});
         default:
