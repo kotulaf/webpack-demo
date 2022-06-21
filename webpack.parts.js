@@ -28,8 +28,15 @@ exports.devServer = () => ({
     ],
 });
 
-exports.page = ({title}) => ({
-    plugins: [new MiniHtmlWebpackPlugin({context: {title}})], /* the title here does not need to be specified as this is a module that webpack config will be loading */
+exports.page = ({ title, url = "", chunks } = {}) => ({
+    plugins: [
+        new MiniHtmlWebpackPlugin({
+            publicPath: "/",
+            chunks,
+            filename: `${url && url + "/"}index.html`,
+            context: { title },
+        }),
+    ], /* the title here does not need to be specified as this is a module that webpack config will be loading */
 });
 
 exports.loadCSS = () => ({      // files ending with CSS will invoke the given loaders
