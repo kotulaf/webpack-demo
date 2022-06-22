@@ -7,6 +7,13 @@ const ModuleFederationPlugin = require("webpack").container;
 
 const commonConfig = merge([
     {
+        resolveLoader: {
+            alias: {
+                "demo-loader": path.resolve(__dirname, "loaders/demo-loader.js"),
+            },
+        },
+    },
+    {
         entry: [path.join(__dirname, "src", "bootstrap.js")],
         output: { publicPath: "/" },
     },
@@ -31,6 +38,10 @@ const commonConfig = merge([
 ]);
 
 const productionConfig = merge([
+    {
+        entry: [path.join(__dirname, "src", "bootstrap.js")],
+        output: { publicPath: "/webpack-demo/" },
+    },
     parts.eliminateUnusedCss(),
     {
         optimization: {
